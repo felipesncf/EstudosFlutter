@@ -1,3 +1,4 @@
+import 'package:LojaOnline/Views/productsScreen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,8 @@ class Categoria extends StatelessWidget {
       title: Text(name),
       trailing: Icon(Icons.keyboard_arrow_right),
       onTap: () {
-        print('detalhe');
+        Navigator.of(context)
+            .push(MaterialPageRoute(builder: (context) => ProcuctScreen()));
       },
     );
   }

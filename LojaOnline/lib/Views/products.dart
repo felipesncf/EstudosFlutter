@@ -18,7 +18,8 @@ class Products extends StatelessWidget {
       Categoria(
           'https://cdn.icon-icons.com/icons2/1314/PNG/512/shirt_86551.png',
           'Camisetas')
-    ], color: Colors.grey[500]);
+    ], color: Colors.grey[500])
+        .toList();
     return ListView(
       children: dividedTiles,
     );
