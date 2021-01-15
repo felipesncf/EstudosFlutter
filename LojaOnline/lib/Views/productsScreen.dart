@@ -9,10 +9,10 @@ class ProcuctScreen extends StatelessWidget {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Nome do produto'),
+          title: Text('Produtos'),
           centerTitle: true,
           bottom: TabBar(
-            indicatorColor: Colors.white,
+            indicatorColor: Colors.grey,
             tabs: [
               Tab(
                 icon: Icon(Icons.grid_on),

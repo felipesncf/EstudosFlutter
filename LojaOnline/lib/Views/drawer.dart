@@ -1,5 +1,5 @@
 import 'package:LojaOnline/Views/home.dart';
-import 'package:LojaOnline/Views/products.dart';
+import 'package:LojaOnline/Views/categoria.dart';
 import 'package:LojaOnline/widgets/customDrawer.dart';
 import 'package:flutter/material.dart';
 
@@ -17,11 +17,11 @@ class DrawerMenu extends StatelessWidget {
         ),
         Scaffold(
           appBar: AppBar(
-            title: (Text('Produtos')),
+            title: (Text('Categorias')),
             centerTitle: true,
           ),
           drawer: CustomDrawer(_pageController),
-          body: Products(),
+          body: Categoria(),
         ),
         Container(color: Colors.black),
         Container(color: Colors.grey),

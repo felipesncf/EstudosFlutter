@@ -2,11 +2,11 @@ import 'package:LojaOnline/Views/productsScreen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class Categoria extends StatelessWidget {
+class CategoriaTile extends StatelessWidget {
   final String icon;
   final String name;
 
-  Categoria(this.icon, this.name);
+  CategoriaTile(this.icon, this.name);
 
   @override
   Widget build(BuildContext context) {
